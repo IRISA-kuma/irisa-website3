@@ -25,7 +25,7 @@ export default function Service() {
       <section
         className="h-screen bg-cover bg-center flex flex-col items-center justify-center relative"
         style={{ 
-          backgroundImage: 'url(/images/SERVICE.jpg)',
+          backgroundImage: 'url(/images/SERVICE-min.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

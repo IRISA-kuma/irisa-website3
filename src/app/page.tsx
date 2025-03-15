@@ -49,7 +49,7 @@ export default function Home() {
       <section
         className="h-screen bg-cover bg-center flex flex-col items-center justify-center relative"
         style={{ 
-          backgroundImage: 'url(/images/HERO.jpg)',
+          backgroundImage: 'url(/images/HERO-min.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -246,7 +246,7 @@ export default function Home() {
       <section 
         className="py-20 relative text-white text-center"
         style={{ 
-          backgroundImage: 'url(/images/YAMAGATA.jpg)',
+          backgroundImage: 'url(/images/YAMAGATA-min.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

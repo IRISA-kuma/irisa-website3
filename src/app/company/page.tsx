@@ -46,7 +46,7 @@ export default function Company() {
       <section
         className="h-screen bg-cover bg-center flex flex-col items-center justify-center relative"
         style={{ 
-          backgroundImage: 'url(/images/COMPANY.jpg)',
+          backgroundImage: 'url(/images/COMPANY-min.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
