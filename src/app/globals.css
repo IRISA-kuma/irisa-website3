@@ -12,14 +12,6 @@
   --section-divider: #f3f4f6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --section-divider: #1f2937;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
