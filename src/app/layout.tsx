@@ -10,9 +10,9 @@ const notoSerifJP = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "IRISA | ふるさとをクリエイターと豊かにする",
-  description: "株式会社IRISAは、地域の魅力をクリエイターとのコラボレーションで再発見し、新しい価値を創造する会社です。",
-  keywords: "IRISA, ふるさと納税, NFT, DAO, 地域創生, クリエイター"
+  title: "IRISA | インフラ点検をもっと身近に",
+  description: "株式会社IRISAは、誰もが簡単にインフラ点検を行える仕組みを構築し、地域の持続可能な未来づくりに貢献します。",
+  keywords: "IRISA, インフラ, 点検, 橋梁, メンテナンス, 自治体"
 };
 
 export default function RootLayout({
