@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   description: "株式会社IRISAは、誰もが簡単にインフラ点検を行える仕組みを構築し、地域の持続可能な未来づくりに貢献します。",
   keywords: "IRISA,IRISA株式会社,株式会社IRISA,インフラ, 点検, 橋梁, メンテナンス, 自治体",
   icons: {
-    icon: '/irisa-icon.png',
-    apple: '/irisa-icon.png',
+    icon: '/images/irisa-icon.png',
+    apple: '/images/irisa-icon.png',
   }
 };
 
