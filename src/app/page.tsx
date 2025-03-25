@@ -20,13 +20,6 @@ export default function Home() {
       excerpt: '弊社ホームページを開設いたしました。サービス内容や企業情報、最新ニュースなどを随時発信してまいります。',
       image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
     },
-    {
-      id: 3,
-      date: '2024年9月',
-      title: 'East Venturesより1000万円の資金調達を実施',
-      excerpt: '地域活性化事業の拡大を目指し、East Venturesをリード投資家として1000万円の資金調達を実施しました。新規事業への積極的な投資を行います。',
-      image: 'https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
-    }
   ];
 
   // 事業内容のデータ

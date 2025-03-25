@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 export default function News() {
-  // すべてのニュースデータ（3件の実記事と「COMING SOON」表示）
+  // すべてのニュースデータ（2件の実記事と「COMING SOON」表示 - 資金調達ニュースを削除）
   const allNewsItems = [
     {
       id: 1,
@@ -24,14 +24,6 @@ export default function News() {
     },
     {
       id: 3,
-      date: '2024年9月',
-      title: 'East Venturesより1000万円の資金調達を実施',
-      excerpt: '地域活性化事業の拡大を目指し、East Venturesをリード投資家として1000万円の資金調達を実施しました。新規事業への積極的な投資を行います。',
-      image: 'https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      hasDetail: true
-    },
-    {
-      id: 4,
       date: '',
       title: 'COMING SOON',
       excerpt: '',
@@ -86,8 +78,8 @@ export default function News() {
             </span>
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {/* 実際のニュース記事（3件） */}
-            {allNewsItems.slice(0, 3).map((news, idx) => (
+            {/* 実際のニュース記事（2件） */}
+            {allNewsItems.slice(0, 2).map((news, idx) => (
               <motion.div
                 key={news.id}
                 initial={{ opacity: 0, y: 30 }}

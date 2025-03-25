@@ -24,7 +24,7 @@ export default function NewsDetail() {
   const [relatedNews, setRelatedNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // 全てのニュースデータ（タイトルと内容を修正）
+  // 全てのニュースデータ（資金調達のニュースを非表示に設定）
   const allNewsItems: NewsItem[] = [
     {
       id: 1,
@@ -54,6 +54,7 @@ export default function NewsDetail() {
       image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       hasDetail: true
     },
+    // 資金調達のニュースを hasDetail: false に設定（または完全に削除することも可能）
     {
       id: 3,
       date: '2024年9月',
@@ -67,7 +68,7 @@ export default function NewsDetail() {
 
 今回の資金調達を機に、さらなる技術開発と事業拡大に精進してまいります。`,
       image: 'https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      hasDetail: true
+      hasDetail: false // 詳細ページを非表示に設定
     },
     {
       id: 4,
