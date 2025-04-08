@@ -9,8 +9,8 @@ export default function Home() {
     {
       id: 1,
       date: '2025年3月',
-      title: '熊本大学認定ベンチャーに登録',
-      excerpt: '弊社は熊本大学認定ベンチャーとして正式に登録されました。産学連携をさらに強化し、地域イノベーションを推進します。',
+      title: '熊本大学発ベンチャーの称号を付与されました',
+      excerpt: '弊社は熊本大学発ベンチャーの称号を付与されました。産学連携をさらに強化し、地域イノベーションを推進します。',
       image: 'https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
     },
     {
@@ -85,7 +85,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            熊本大学認定ベンチャー
+            熊本大学発ベンチャー
           </motion.p>
           <motion.h2
             className="text-3xl md:text-4xl mb-6 relative inline-block"
@@ -95,7 +95,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <span className="relative">
-              株式会社IRISAとは？
+              IRISA株式会社とは？
               <span className="absolute -bottom-2 left-0 right-0 h-0.5 bg-gray-200"></span>
             </span>
           </motion.h2>
@@ -278,7 +278,7 @@ export default function Home() {
             </Link>
           </motion.div>
           <div className="mt-16 pt-8 border-t border-white border-opacity-20 text-sm">
-            <p className="mt-8 text-white">© 2025 株式会社IRISA. All Rights Reserved.</p>
+            <p className="mt-8 text-white">© 2025 IRISA株式会社. All Rights Reserved.</p>
           </div>
         </div>
       </section>

@@ -216,7 +216,7 @@ export default function Service() {
       {/* フッターセクション */}
       <footer className="py-6 bg-white text-black text-center border-t border-gray-200">
         <div className="container mx-auto px-4">
-          <p className="text-sm">© 2025 株式会社IRISA. All Rights Reserved.</p>
+          <p className="text-sm">© 2025 IRISA株式会社. All Rights Reserved.</p>
         </div>
       </footer>
     </main>

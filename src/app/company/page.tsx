@@ -35,9 +35,9 @@ export default function Company() {
 
   // 沿革データ
   const history = [
-    { year: '2024年8月', event: '株式会社IRISA設立' },
+    { year: '2024年8月', event: 'IRISA株式会社設立' },
     { year: '2024年9月', event: 'EastVenturesより約1000万円の資金調達を実施' },
-    { year: '2025年3月', event: '熊本大学の認定ベンチャーに登録' },
+    { year: '2025年3月', event: '熊本大学発ベンチャーの称号付与' },
   ];
 
   return (
@@ -116,7 +116,7 @@ export default function Company() {
               私たちはテクノロジーで地域のインフラ課題を解決し、持続可能で安全な地域の実現に貢献してまいります。今後とも、皆様の温かいご支援とご指導を賜りますよう、心よりお願い申し上げます。
               </p>
               <p className="text-black mb-4 leading-relaxed tabular-nums">
-              株式会社IRISA 代表取締役 福塚大和
+              IRISA株式会社 代表取締役 福塚大和
               </p>
             </div>
           </motion.div>
@@ -350,7 +350,7 @@ export default function Company() {
               <tbody>
                 <tr className="border-b">
                   <th className="py-4 px-6 bg-gray-50 font-medium w-1/3">会社名</th>
-                  <td className="py-4 px-6">株式会社IRISA</td>
+                  <td className="py-4 px-6">IRISA株式会社</td>
                 </tr>
                 <tr className="border-b">
                   <th className="py-4 px-6 bg-gray-50 font-medium">設立</th>
@@ -394,7 +394,7 @@ export default function Company() {
       {/* フッターセクション */}
       <footer className="py-6 bg-gray-50 text-black text-center border-t border-gray-200">
         <div className="container mx-auto px-4">
-          <p className="text-sm tabular-nums">© 2025 株式会社IRISA. All Rights Reserved.</p>
+          <p className="text-sm tabular-nums">© 2025 IRISA株式会社. All Rights Reserved.</p>
         </div>
       </footer>
     </main>

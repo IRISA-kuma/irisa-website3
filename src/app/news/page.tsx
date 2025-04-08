@@ -9,8 +9,8 @@ export default function News() {
     {
       id: 1,
       date: '2025年3月',
-      title: '熊本大学認定ベンチャーに登録',
-      excerpt: '弊社は熊本大学認定ベンチャーとして正式に登録されました。産学連携をさらに強化し、地域イノベーションを推進します。',
+      title: '熊本大学発ベンチャーの称号を付与されました',
+      excerpt: '弊社は熊本大学発ベンチャーの称号を付与されました。産学連携をさらに強化し、地域イノベーションを推進します。',
       image: 'https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       hasDetail: true
     },
@@ -136,7 +136,7 @@ export default function News() {
       {/* フッターセクション */}
       <footer className="py-6 bg-white text-black text-center border-t border-gray-200">
         <div className="container mx-auto px-4">
-          <p className="text-sm">© 2025 株式会社IRISA. All Rights Reserved.</p>
+          <p className="text-sm">© 2025 IRISA株式会社. All Rights Reserved.</p>
         </div>
       </footer>
     </main>

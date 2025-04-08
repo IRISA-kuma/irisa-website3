@@ -391,9 +391,9 @@ export default function Contact() {
             
             <div className="bg-white rounded-lg shadow-sm p-8">
               <div className="w-full">
-                <h3 className="font-bold text-lg mb-4">株式会社IRISA</h3>
-                <p className="text-black mb-3 font-mono">〒860-0802</p>
-                <p className="text-black mb-3">熊本県熊本市中央区中央街<span className="font-mono">4-22</span>アルバ 銀座通りビル<span className="font-mono">605</span></p>
+                <h3 className="font-bold text-lg mb-4">IRISA株式会社</h3>
+                <p className="text-black mb-3 font-mono">〒810-0001</p>
+                <p className="text-black mb-3">福岡県福岡市中央区天神２丁目２番１２号<span className="font-mono">4-22</span>Ｔ＆Ｊビルディング７Ｆ<span className="font-mono">605</span></p>
                 <p className="text-black mb-3"><span className="inline-block w-12">TEL:</span><span className="font-mono">080-2332-0382</span></p>
                 <p className="text-black mb-6"><span className="inline-block w-24">営業時間:</span><span className="font-mono">平日 9:00〜18:00</span></p>
                 <p className="text-sm text-black">※お電話でのお問い合わせも受け付けております。</p>
@@ -406,7 +406,7 @@ export default function Contact() {
       {/* フッターセクション */}
       <footer className="py-6 bg-white text-black text-center border-t border-gray-200">
         <div className="container mx-auto px-4">
-          <p className="text-sm">© 2025 株式会社IRISA. All Rights Reserved.</p>
+          <p className="text-sm">© 2025 IRISA株式会社. All Rights Reserved.</p>
         </div>
       </footer>
     </main>
