@@ -6,15 +6,15 @@ export default function Service() {
   // サービス情報（順序入れ替え）
   const services = [
     {
-      img: '/images/bridge.jpg',
-      title: '橋梁点検事業',
-      desc: '弊社は、5m以下の小規模橋梁を対象とした点検事業を展開しています。\n省力化技術を活用し、\n低コストで高品質な橋梁点検を実現します。',
-      id: 'bridge-inspection'
+      img: '/images/AIAgent.png',
+      title: 'AI橋梁点検サポートシステム「点検AI Agent」の開発・提供',
+      desc: '専門的な知識や経験を持たない人でも、\n簡単かつ効率的に橋梁の健全性を評価できるシステムを提供します。\n人材不足や維持管理コストの増加に直面する\n自治体や管理者の負担を大幅に軽減します。',
+      id: 'ai-agent'
     },
     {
-      img: '/images/AIAgent.png',
-      title: 'AI橋梁点検サポートシステム「点検AI Agent」の提供',
-      desc: '専門的な知識や経験を持たない人でも、\n簡単かつ効率的に橋梁の健全性を評価できるシステムを提供します。\n人材不足や維持管理コストの増加に直面する\n自治体や管理者の負担を大幅に軽減します。',
+      img: '/images/product.jpg',
+      title: '長尺(20mクラス)車両搭載型ロボットアームの開発・提供',
+      desc: 'ロボットとAIが、従来の熟練の技術者に依存した橋梁点検作業を自動化します。\nこれにより、点検コストの削減や、技術者不足といった課題の解決に貢献します。\n人材不足や維持管理コストの増加に直面する\n自治体や管理者の負担を大幅に軽減します。',
       id: 'ai-agent'
     },
   ];
@@ -59,9 +59,9 @@ export default function Service() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <p className="mb-4">人口減や財政ひっ迫により地域インフラ維持は困難になっています。</p>
-            <p className="mb-4">我々はAIを用いて、誰もがインフラ管理に参加できる仕組みを構築し、</p>
-            <p>持続可能な社会基盤の維持に貢献します。</p>
+            <p className="mb-4">老朽化、予算不足、担い手不足により、地域社会を支えるインフラの維持は、かつてない困難に直面しています。</p>
+            <p className="mb-4">私たちは、AIと最先端のロボット技術を駆使し、橋梁点検をはじめとするインフラ維持管理の作業そのものを自動化・効率化するソリューションを開発・提供します。</p>
+            <p className="mb-4">これにより、コストを抜本的に削減し、誰もが安全・安心に利用できる持続可能な社会基盤の実現に貢献します。</p>
           </motion.div>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function Service() {
             viewport={{ once: true }}
           >
             <span className="relative">
-             AIで支える、誰もが主役の地域インフラ
+            ロボットとAIで支える、持続可能な地域インフラ
               <span className="absolute -bottom-2 left-0 right-0 h-0.5 bg-gray-300"></span>
             </span>
           </motion.h2>
@@ -163,50 +163,42 @@ export default function Service() {
               viewport={{ once: true }}
             >
               <div className="rounded-lg overflow-hidden shadow-md mb-8 bg-gray-100 p-4">
-                <img 
-                  src="/images/product.png" 
-                  alt="点検AI Agentのシステム図" 
-                  className="w-full h-auto rounded-lg"
-                />
-                <p className="text-sm text-black text-center mt-2">点検AI Agentのシステム概念図</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <img 
+                      src="/images/product_bridge.jpg" 
+                      alt="ロボットアームによる橋梁点検イメージ図" 
+                      className="w-full h-auto rounded-lg"
+                    />
+                    <p className="text-sm text-black text-center mt-2">ロボットアームによる橋梁点検イメージ図</p>
+                  </div>
+                  <div>
+                    <img 
+                      src="/images/product_road.jpg" 
+                      alt="ロボットアームによる道路付属物点検イメージ図" 
+                      className="w-full h-auto rounded-lg"
+                    />
+                    <p className="text-sm text-black text-center mt-2">ロボットアームによる道路付属物点検イメージ図</p>
+                  </div>
+                </div>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-bold text-xl mb-4 text-center">システムの特徴</h3>
-                <ul className="space-y-4">
-                  <li className="flex gap-3">
-                    <div className="flex-shrink-0 bg-blue-100 rounded-full p-2 h-8 w-8 flex items-center justify-center">
-                      <span className="text-blue-600 font-bold">1</span>
-                    </div>
-                    <div>
-                      <p className="text-black"><span className="font-medium">簡単操作</span>：専門知識がなくても、スマートフォンでの撮影と簡単な入力だけで橋梁点検が可能です。</p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <div className="flex-shrink-0 bg-blue-100 rounded-full p-2 h-8 w-8 flex items-center justify-center">
-                      <span className="text-blue-600 font-bold">2</span>
-                    </div>
-                    <div>
-                      <p className="text-black"><span className="font-medium">AIによる自動診断</span>：AIが損傷を自動検出し、健全性を評価します。一貫した評価を実現します。</p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <div className="flex-shrink-0 bg-blue-100 rounded-full p-2 h-8 w-8 flex items-center justify-center">
-                      <span className="text-blue-600 font-bold">3</span>
-                    </div>
-                    <div>
-                      <p className="text-black"><span className="font-medium">クラウド管理</span>：点検データはクラウド上で一元管理され、履歴管理も容易です。</p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <div className="flex-shrink-0 bg-blue-100 rounded-full p-2 h-8 w-8 flex items-center justify-center">
-                      <span className="text-blue-600 font-bold">4</span>
-                    </div>
-                    <div>
-                      <p className="text-black"><span className="font-medium">低コスト</span>：専門業者に依頼するよりも大幅なコスト削減が可能です。自治体の限られた予算内でより多くのインフラ点検を実施できます。</p>
-                    </div>
-                  </li>
-                </ul>
+                <h3 className="font-bold text-xl mb-4 text-center">長尺(20mクラス)車両搭載型ロボットアームについて</h3>
+                <div className="space-y-4 text-left">
+                  <p className="text-black leading-relaxed">
+                  開発する長尺(20mクラス)車両搭載型ロボットアームは、AI技術を核とした次世代のインフラ点検システムです。AIが自律的にロボットアームを制御し、これまで人手と多大な時間を要した橋梁や道路付属物などの点検作業を効率的に自動化します。
+                  </p>
+                  <p className="text-black leading-relaxed">
+                  アーム先端に搭載された高性能センサーヘッド(高解像度カメラ、LiDAR等)が、点検対象に安定して近接し、詳細なデータを取得します。収集されたデータはAIによって即座に解析され、ひび割れ・錆・漏水といった損傷を高精度かつ客観的に自動検出します。これにより、点検品質の高精度化・均一化を実現します。
+                  </p>
+                  <p className="text-black leading-relaxed">
+                  現場作業の自動化・省人化により、従来の大人数での作業や高額な橋梁点検車、足場設置などが不要となり、点検に関わるトータルコストを大幅に削減します。また、危険箇所での作業をロボットが代替することで、作業員の安全確保にも大きく貢献します。
+                  </p>
+                  <p className="text-black leading-relaxed">
+                  取得された点検データ（画像、センサー情報、損傷位置・種類・程度など）はデジタル情報として統合管理されます。これにより、点検結果の記録・報告書作成の自動化はもちろん、経年変化の追跡や劣化予測など、データに基づいた計画的かつ効率的なインフラ維持管理（予防保全）の実現を支援します。
+                  </p>
+                </div>
               </div>
             </motion.div>
           </div>

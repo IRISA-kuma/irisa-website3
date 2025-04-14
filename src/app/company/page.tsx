@@ -20,12 +20,6 @@ export default function Company() {
       bio: '熊本大学情報電気工学科卒。\n塾講師として4年間受験指導を担当。\n地方の子供の減少を目の当たりにし、\n地域課題に関心を持つ。'
     },
     {
-      name: '赤木 竜成',
-      position: 'エンジニア',
-      image: '/images/akagi.png',
-      bio: '大阪大学大学院在籍\n高専時代から開発を行い、\n佐世保高専を主席で卒業。\nIRISAではAIモデルの開発を行う。'
-    },
-    {
       name: '渡部 慎也',
       position: '技術顧問',
       image: '/images/watanabe.jpg',
@@ -36,7 +30,6 @@ export default function Company() {
   // 沿革データ
   const history = [
     { year: '2024年8月', event: 'IRISA株式会社設立' },
-    { year: '2024年9月', event: 'EastVenturesより約1000万円の資金調達を実施' },
     { year: '2025年3月', event: '熊本大学発ベンチャーの称号付与' },
   ];
 
@@ -104,16 +97,28 @@ export default function Company() {
                 </span>
               </h2>
               <p className="text-black mb-4 leading-relaxed tabular-nums">
-                株式会社IRISAは、橋梁をはじめとする社会インフラの老朽化と、それに伴う維持管理の課題解決を使命として設立されました。
+              現代社会は、技術の急速な進化とともに、少子高齢化やインフラ老朽化といった、これまでにない複雑な課題に直面しています。
               </p>
               <p className="text-black mb-4 leading-relaxed tabular-nums">
-              現在、日本国内では建設後50年以上の老朽化橋梁が急増する一方、人材不足や自治体の財政難によって従来の点検手法を維持するのが難しくなっています。
+              私自身、学生時代にパナソニック創業者 松下幸之助氏の「水道哲学」――すなわち、価値あるものを水のように安価で豊富に供給し、社会を豊かにするという思想――に深く感銘を受け、
               </p>
               <p className="text-black mb-4 leading-relaxed tabular-nums">
-              弊社は、こうした課題に取り組むべく、スマートフォンを活用したスキャン技術とAI解析を融合した橋梁点検支援技術「点検AI Agent」を開発しております。今後はARグラスやドローンなど、先端技術の活用も視野に入れております。専門知識がなくても簡単で精度の高い点検を可能にし、低コストで高品質な点検を実現します。
+              この哲学を現代の社会課題解決に応用できないかと考えたことが、IRISA株式会社創業の原点です。
               </p>
               <p className="text-black mb-4 leading-relaxed tabular-nums">
-              私たちはテクノロジーで地域のインフラ課題を解決し、持続可能で安全な地域の実現に貢献してまいります。今後とも、皆様の温かいご支援とご指導を賜りますよう、心よりお願い申し上げます。
+              2024年の能登半島地震を機に、人口減少地域におけるインフラ維持の困難さを目の当たりにし、「インフラの維持コストは高い」という固定観念を打ち破る必要がある、と痛感しました。
+              </p>
+              <p className="text-black mb-4 leading-relaxed tabular-nums">
+              もし、AIとロボット技術によって、インフラ維持管理コストを劇的に下げることができれば、人々はもっと自由に、快適に、あらゆる場所で暮らせるようになるのではないか。この着想が、私たちのビジョン「あらゆる場所で、あらゆる人が快適に居住できる世界を実現する」に繋がっています。
+              </p>
+              <p className="text-black mb-4 leading-relaxed tabular-nums">
+              私たちの挑戦は、橋梁点検に留まりません。将来的には、ゴミ処理、上下水道、道路管理など、自治体が担ってきた生活インフラ全般を、AIとロボットによって効率化し、「データ駆動型の完全自動生活インフラマネジメントシステム」として社会に実装することを目指しています。
+              </p>
+              <p className="text-black mb-4 leading-relaxed tabular-nums">
+              IRISAは、AIとロボット技術の力を信じ、インフラ維持管理の非効率やコスト構造といった根本課題に立ち向かいます。そして、技術の力で社会基盤をより豊かに、持続可能なものへと変革していくことで、「社会の公器」としての使命を果たしてまいります。
+              </p>
+              <p className="text-black mb-4 leading-relaxed tabular-nums">
+              皆様の変わらぬご支援とご期待を賜りますよう、お願い申し上げます。
               </p>
               <p className="text-black mb-4 leading-relaxed tabular-nums">
               IRISA株式会社 代表取締役 福塚大和
@@ -177,9 +182,15 @@ export default function Company() {
               viewport={{ once: true }}
             >
               <h3 className="text-2xl font-bold mb-4">ミッション</h3>
-              <p className="text-xl font-medium mb-4">「地域インフラの未来を、AIと人の力で支える」</p>
+              <p className="text-xl font-medium mb-4">「完全自動生活インフラマネジメントシステムの社会実装」 </p>
               <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
-              人口減少や財政状況のひっ迫により、日本の地域インフラ維持は困難になっています。私たちIRISAは、AI技術と非専門家のマネジメントを駆使し、持続可能な社会基盤の維持に貢献します。
+              私たちのミッションは、AIとロボット技術を最大限に活用し、従来、自治体が担ってきた生活インフラ(ごみ処理、上下水道、土木、公共施設の維持管理など)のあり方を根本から変革することです。
+              </p>
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              これにより、サービスの供給効率を飛躍的に高めると同時に、コストを劇的に削減します。
+              </p>
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              さらに、これらのインフラに関するデータを一元的に管理・分析し、データに基づいて最適化・自動化された「完全自動生活インフラマネジメントシステム」を構築し、社会に実装することを目指します。
               </p>
             </motion.div>
 
@@ -192,9 +203,18 @@ export default function Company() {
               viewport={{ once: true }}
             >
               <h3 className="text-2xl font-bold mb-4">ビジョン</h3>
-              <p className="text-xl font-medium mb-4">「インフラ管理の常識を変え、地域が自律的に安心・安全を維持できる社会」</p>
+              <p className="text-xl font-medium mb-4">「あらゆる場所で、あらゆる人が快適に居住できる世界を実現する。」</p>
               <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
-              誰もが高精度なインフラ点検に関与できる未来を創造し、地域社会が自らの手で安全なインフラを守る時代を実現します。
+              人口減少が進む現代において、インフラ維持管理のコストを抑えるために居住エリアを集約する「コンパクトシティ」化が社会的な潮流として議論されています。
+              </p>
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              しかし私たちは、この考え方に対し、AIとロボット技術を用いて「インフラ維持ののコスト」そのものを劇的に下げるという、全く新しいアプローチを提案します。
+              </p>
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              居住エリアを限定・縮小するのではなく、技術の力によって、あらゆる場所のインフラ維持コストを限りなくゼロに近づけることを目指します。
+              </p>
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              これにより、たとえその地域に住む人が少数であっても、誰もが地理的な制約なく、望む場所で快適かつ豊かに生活できる、より自由な社会を実現することが私たちのビジョンです。
               </p>
             </motion.div>
 
@@ -372,7 +392,7 @@ export default function Company() {
                   <th className="py-4 px-6 bg-gray-50 font-medium">事業内容</th>
                   <td className="py-4 px-6">
                     ・点検支援技術「点検AI Agent」の開発<br/>
-                    ・小規模橋梁点検業務<br/>
+                    ・長尺(20mクラス)車両搭載型ロボットアームの開発<br/>
                   </td>
                 </tr>
                 <tr className="border-b">
@@ -383,7 +403,7 @@ export default function Company() {
                 </tr>
                 <tr>
                   <th className="py-4 px-6 bg-gray-50 font-medium">従業員数</th>
-                  <td className="py-4 px-6 tabular-nums">3名＋技術顧問1名（2025年3月現在）</td>
+                  <td className="py-4 px-6 tabular-nums">2名＋技術顧問1名（2025年3月現在）</td>
                 </tr>
               </tbody>
             </table>

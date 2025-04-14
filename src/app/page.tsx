@@ -25,17 +25,16 @@ export default function Home() {
   // 事業内容のデータ
   const services = [
     {
-      img: '/images/bridge.jpg',
-      title: '橋梁点検事業',
-      desc: '弊社は、5m以下の小規模橋梁を対象とした点検事業を展開しています。\n省力化技術を活用し、低コストで高品質な橋梁点検を実現します。',
-    },
-    {
       img: '/images/AIAgent.png',
       title: 'AI橋梁点検サポートシステム「点検AI Agent」の提供',
       desc: '専門的な知識や経験を持たない人でも、\n簡単かつ効率的に橋梁の健全性を評価できるシステムを提供します。\n人材不足や維持管理コストの増加に直面する自治体や管理者の負担を大幅に軽減します。',
     },
+    {
+      img: '/images/product.jpg',
+      title: '長尺(20mクラス)車両搭載型ロボットアーム',
+      desc: 'ロボットとAIが、従来の熟練の技術者に依存した橋梁点検作業を自動化します。\nこれにより、点検コストの削減や、技術者不足といった課題の解決に貢献します。',
+    },
   ];
-
   return (
     <main className="font-serif">
       {/* Hero Section */}
@@ -60,8 +59,8 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            インフラ点検をもっと身近に。<br />
-            誰でも守れる地域の安心
+            あらゆる場所で、<br />
+            あらゆる人が快適に居住できる世界を実現する。
           </motion.h1>
           <motion.p
             className="text-white text-2xl md:text-3xl tracking-wider font-bold"
@@ -107,11 +106,12 @@ export default function Home() {
             viewport={{ once: true }}
             style={{ lineHeight: "1.8" }}
           >
-            スマートフォンとAIを活用した「点検AI Agent」を開発し、<br />
-            インフラ管理に革新をもたらす企業です。<br />
-            専門知識を必要とせず、誰もが簡単にインフラ点検を行える仕組みを構築します。<br />
-            人材不足やコスト負担で課題を抱える自治体・管理者をサポートし、<br />
-            地域の持続可能な未来づくりに貢献します。
+            IRISAは極めて低いコストで、日本中どこでも、誰もが快適に安心して住み続けられる未来への挑戦します。<br />
+            この見過ごせない社会の課題に、私たちはロボットとAIという解決策で真正面から向き合います。<br />
+            危険と隣り合わせの点検作業、膨らむ維持コストから人々を解放し、テクノロジーの力で安全と効率を当たり前に。<br />
+            目指すのは、インフラ管理の完全自動化。<br />
+            それは、極めて低いコストで、日本中どこでも、誰もが快適に安心して住み続けられる未来への挑戦です。<br />
+            IRISAは、その未来を切り拓きます。
             
           </motion.p>
           <motion.div
