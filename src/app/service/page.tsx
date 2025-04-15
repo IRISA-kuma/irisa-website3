@@ -8,7 +8,7 @@ export default function Service() {
     {
       img: '/images/AIAgent.png',
       title: 'AI橋梁点検サポートシステム「点検AI Agent」の開発・提供',
-      desc: '専門的な知識や経験を持たない人でも、\n簡単かつ効率的に橋梁の健全性を評価できるシステムを提供します。\n人材不足や維持管理コストの増加に直面する\n自治体や管理者の負担を大幅に軽減します。',
+      desc: '専門的な知識や経験を持たない人でも、\nスマホで簡単かつ効率的に橋梁の健全性を評価できるシステムを提供します。\n人材不足や維持管理コストの増加に直面する\n自治体や管理者の負担を大幅に軽減します。',
       id: 'ai-agent'
     },
     {
@@ -53,7 +53,7 @@ export default function Service() {
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-white via-gray-200 to-white"></div>
         <div className="container mx-auto px-4 text-center">
           <motion.div
-            className="text-xl md:text-2xl leading-relaxed mb-12 max-w-4xl mx-auto"
+            className="text-xl md:text-2xl leading-relaxed mb-12 max-w-4xl mx-auto text-left"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
@@ -149,7 +149,7 @@ export default function Service() {
             viewport={{ once: true }}
           >
             <span className="relative">
-              点検AI Agentのしくみ
+            ロボットアームとAIによる次世代インフラ点検
               <span className="absolute -bottom-2 left-0 right-0 h-0.5 bg-gray-200"></span>
             </span>
           </motion.h2>

@@ -10,7 +10,7 @@ export default function Company() {
     {
       name: '福塚 大和',
       position: '代表取締役',
-      image: '/images/fukutuka.png',
+      image: '/images/Fukutuka.png',
       bio: '熊本大学情報電気工学科卒。\n大学在学時より、エンジニアとして開発業務に従事\n2024年9月にIRISA株式会社を創業。'
     },
     {
@@ -62,18 +62,19 @@ export default function Company() {
         </motion.div>
       </section>
 
-      {/* CEO Greeting Section */}
+      {/* CEO Greeting Section - 修正：縦並びレイアウト */}
       <section className="py-20 bg-white relative">
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-white via-gray-200 to-white"></div>
         <div className="container mx-auto px-4">
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto"
+            className="flex flex-col items-center max-w-4xl mx-auto"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <div className="overflow-hidden rounded-lg shadow-md">
+            {/* 代表写真を中央に配置 */}
+            <div className="w-full max-w-md overflow-hidden rounded-lg shadow-md mb-10">
               <motion.div 
                 className="relative w-full h-96"
                 initial={{ opacity: 0.8, scale: 0.95 }}
@@ -82,14 +83,16 @@ export default function Company() {
                 viewport={{ once: true }}
               >
                 <Image 
-                  src="/images/fukutuka.png"
+                  src="/images/Fukutuka.png"
                   alt="代表者の写真" 
                   className="transition-transform duration-500 hover:scale-105 object-contain"
                   fill
                 />
               </motion.div>
             </div>
-            <div>
+            
+            {/* メッセージを下に配置 */}
+            <div className="text-left w-full">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 relative inline-block">
                 <span className="relative">
                   代表挨拶
@@ -183,13 +186,13 @@ export default function Company() {
             >
               <h3 className="text-2xl font-bold mb-4">ミッション</h3>
               <p className="text-xl font-medium mb-4">「完全自動生活インフラマネジメントシステムの社会実装」 </p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               私たちのミッションは、AIとロボット技術を最大限に活用し、従来、自治体が担ってきた生活インフラ(ごみ処理、上下水道、土木、公共施設の維持管理など)のあり方を根本から変革することです。
               </p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               これにより、サービスの供給効率を飛躍的に高めると同時に、コストを劇的に削減します。
               </p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               さらに、これらのインフラに関するデータを一元的に管理・分析し、データに基づいて最適化・自動化された「完全自動生活インフラマネジメントシステム」を構築し、社会に実装することを目指します。
               </p>
             </motion.div>
@@ -204,16 +207,16 @@ export default function Company() {
             >
               <h3 className="text-2xl font-bold mb-4">ビジョン</h3>
               <p className="text-xl font-medium mb-4">「あらゆる場所で、あらゆる人が快適に居住できる世界を実現する。」</p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               人口減少が進む現代において、インフラ維持管理のコストを抑えるために居住エリアを集約する「コンパクトシティ」化が社会的な潮流として議論されています。
               </p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               しかし私たちは、この考え方に対し、AIとロボット技術を用いて「インフラ維持ののコスト」そのものを劇的に下げるという、全く新しいアプローチを提案します。
               </p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               居住エリアを限定・縮小するのではなく、技術の力によって、あらゆる場所のインフラ維持コストを限りなくゼロに近づけることを目指します。
               </p>
-              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums">
+              <p className="text-black leading-relaxed max-w-3xl mx-auto tabular-nums text-left">
               これにより、たとえその地域に住む人が少数であっても、誰もが地理的な制約なく、望む場所で快適かつ豊かに生活できる、より自由な社会を実現することが私たちのビジョンです。
               </p>
             </motion.div>

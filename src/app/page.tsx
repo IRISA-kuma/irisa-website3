@@ -60,7 +60,8 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.2 }}
           >
             あらゆる場所で、<br />
-            あらゆる人が快適に居住できる世界を実現する。
+            あらゆる人が快適に居住できる<br />
+            世界を実現する。
           </motion.h1>
           <motion.p
             className="text-white text-2xl md:text-3xl tracking-wider font-bold"
@@ -99,7 +100,7 @@ export default function Home() {
             </span>
           </motion.h2>
           <motion.p
-            className="text-black mb-10 max-w-2xl mx-auto text-lg leading-relaxed"
+            className="text-black text-left mb-10 max-w-2xl mx-auto text-lg leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
