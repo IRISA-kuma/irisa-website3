@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif_JP } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header"; // 新しく作成するコンポーネント
 
 const notoSerifJP = Noto_Serif_JP({
   subsets: ["latin"],
@@ -30,9 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${notoSerifJP.variable} antialiased font-serif`}>
-        <Header />
-        
+      <body className={`${notoSerifJP.variable} antialiased font-serif`}>        
         {/* Main Content */}
         <main>
           {children}
