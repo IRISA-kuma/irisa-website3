@@ -8,13 +8,13 @@ export default function Home() {
       {/* Hero Section */}
       <section
         className="h-screen bg-cover bg-center flex flex-col items-center justify-center relative"
-        style={{
+        style={{ 
           backgroundImage: 'url(/images/blackback.png)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-40" />
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <motion.div
           className="z-10 text-center px-4"
           initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             viewport={{ once: true }}
-            style={{ lineHeight: '1.8' }}
+            style={{ lineHeight: "1.8" }}
           >
             熊本大学発ベンチャーとして、ロボットとAIを活用したインフラ管理の自動化に取り組んでいます。
           </motion.p>
@@ -140,34 +140,12 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <form className="space-y-4">
-              <div>
-                <input
-                  type="text"
-                  placeholder="お名前"
-                  className="w-full px-4 py-2 border rounded-md"
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  placeholder="メールアドレス"
-                  className="w-full px-4 py-2 border rounded-md"
-                />
-              </div>
-              <div>
-                <textarea
-                  placeholder="お問い合わせ内容"
-                  className="w-full px-4 py-2 border rounded-md h-32"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors"
-              >
-                送信
-              </button>
-            </form>
+            <a 
+              href="mailto:yamato.fukutsuka@irisa-robot.com" 
+              className="text-blue-600 hover:text-blue-800 text-xl font-medium"
+            >
+              yamato.fukutsuka@irisa-robot.com
+            </a>
           </motion.div>
         </div>
       </section>
