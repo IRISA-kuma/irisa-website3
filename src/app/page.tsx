@@ -71,7 +71,7 @@ export default function Home() {
                 </tr>
                 <tr className="border-b">
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">設立日</th>
-                  <td className="px-4 py-3">2025年8月26日</td>
+                  <td className="px-4 py-3">2024年8月26日</td>
                 </tr>
                 <tr className="border-b">
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">事業内容</th>
@@ -83,7 +83,7 @@ export default function Home() {
                 </tr>
                 <tr className="border-b">
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">主要株主</th>
-                  <td className="px-4 py-3">EastVentures</td>
+                  <td className="px-4 py-3">EastVentures等</td>
                 </tr>
                 <tr>
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">その他</th>

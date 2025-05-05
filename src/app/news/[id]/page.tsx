@@ -70,30 +70,7 @@ export default function NewsDetail() {
       image: 'https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       hasDetail: false // 詳細ページを非表示に設定
     },
-    {
-      id: 4,
-      date: '2024年12月10日',
-      title: '年末特別イベント開催のお知らせ',
-      excerpt: 'COMING SOON',
-      image: 'https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      hasDetail: false
-    },
-    {
-      id: 5,
-      date: '2024年11月5日',
-      title: '地方創生アワード最優秀賞受賞',
-      excerpt: 'COMING SOON',
-      image: 'https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      hasDetail: false
-    },
-    {
-      id: 6,
-      date: '2024年10月15日',
-      title: '新規パートナー自治体の発表',
-      excerpt: 'COMING SOON',
-      image: 'https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      hasDetail: false
-    }
+
   ];
 
   useEffect(() => {
