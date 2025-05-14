@@ -52,7 +52,7 @@ export default function Home() {
             viewport={{ once: true }}
             style={{ lineHeight: "1.8" }}
           >
-            熊本大学発ベンチャーとして、ロボットとAIを活用したインフラ管理の自動化に取り組んでいます。
+        
           </motion.p>
 
           {/* Company Info Table */}
@@ -75,11 +75,7 @@ export default function Home() {
                 </tr>
                 <tr className="border-b">
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">事業内容</th>
-                  <td className="px-4 py-3">土木用のAIロボットの開発</td>
-                </tr>
-                <tr className="border-b">
-                  <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">代表取締役</th>
-                  <td className="px-4 py-3">福塚大和</td>
+                  <td className="px-4 py-3">AIロボットの開発</td>
                 </tr>
                 <tr className="border-b">
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">主要株主</th>
@@ -87,7 +83,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <th className="px-4 py-3 font-medium bg-gray-100 whitespace-nowrap">その他</th>
-                  <td className="px-4 py-3">熊本大学認定ベンチャー</td>
+                  <td className="px-4 py-3">熊本大学発ベンチャー</td>
                 </tr>
               </tbody>
             </table>
