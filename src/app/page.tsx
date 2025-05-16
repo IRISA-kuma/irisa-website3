@@ -92,7 +92,7 @@ export default function Home() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 bg-gray-50 relative">
+      {/* <section className="py-20 bg-gray-50 relative"> */}
         {/* <div className="container mx-auto px-4 text-center">
           <motion.h2
             className="text-3xl md:text-4xl mb-6 relative inline-block"
@@ -115,7 +115,7 @@ export default function Home() {
             議会とロボットを接続する
           </motion.p> */}
         {/* </div> */}
-      </section>
+      {/* </section> */}
 
       {/* Contact Section */}
       <section className="py-20 bg-white relative">
