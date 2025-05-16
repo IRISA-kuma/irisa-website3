@@ -93,7 +93,7 @@ export default function Home() {
 
       {/* Mission Section */}
       <section className="py-20 bg-gray-50 relative">
-        <div className="container mx-auto px-4 text-center">
+        {/* <div className="container mx-auto px-4 text-center">
           <motion.h2
             className="text-3xl md:text-4xl mb-6 relative inline-block"
             initial={{ opacity: 0 }}
@@ -102,10 +102,10 @@ export default function Home() {
             viewport={{ once: true }}
           >
             ミッション
-          </motion.h2>
+          </motion.h2> */}
 
           {/* Tagline */}
-          <motion.p
+          {/* <motion.p
             className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center mb-12 mx-auto leading-snug bg-gradient-to-r text-black"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -113,8 +113,8 @@ export default function Home() {
             viewport={{ once: true }}
           >
             議会とロボットを接続する
-          </motion.p>
-        </div>
+          </motion.p> */}
+        {/* </div> */}
       </section>
 
       {/* Contact Section */}
